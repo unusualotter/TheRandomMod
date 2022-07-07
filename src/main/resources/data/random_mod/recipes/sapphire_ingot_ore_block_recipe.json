@@ -7,35 +7,35 @@
   ],
   "key": {
     "0": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "1": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "2": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "3": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "4": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "5": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "6": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "7": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     },
     "8": {
-      "item": "random_mod:sapphire_ingot"
+      "item": "random_mod:deleted_mod_element"
     }
   },
   "result": {
-    "item": "random_mod:sapphire_ingot_block",
+    "item": "random_mod:deleted_mod_element",
     "count": 1
   }
 }

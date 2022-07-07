@@ -10,6 +10,24 @@
       "path": "~/Shared"
     },
     {
+      "name": "SapphireRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_recipe",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngotOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot_ore",
+      "path": "~/DinoJack25"
+    },
+    {
       "name": "JurassicPark",
       "type": "musicdisc",
       "sortid": 2,
@@ -28,21 +46,12 @@
       "path": "~/DinoJack25"
     },
     {
-      "name": "SapphireIngot",
-      "type": "item",
-      "sortid": 4,
+      "name": "SapphireIngotOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sapphire_ingot",
-      "path": "~/DinoJack25"
-    },
-    {
-      "name": "SapphireIngotOre",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sapphire_ingot_ore",
+      "registry_name": "sapphire_ingot_ore_block_recipe",
       "path": "~/DinoJack25"
     },
     {
@@ -55,21 +64,21 @@
       "path": "~/DinoJack25"
     },
     {
-      "name": "SapphireIngotOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sapphire_ingot_ore_block_recipe",
-      "path": "~/DinoJack25"
-    },
-    {
       "name": "SapphireIngotBlockOreRecipe",
       "type": "recipe",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_ingot_block_ore_recipe",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot",
       "path": "~/DinoJack25"
     },
     {
@@ -82,13 +91,13 @@
       "path": "~/DinoJack25"
     },
     {
-      "name": "SapphireRecipe",
-      "type": "recipe",
-      "sortid": 10,
+      "name": "Nevergonnagiveyouup",
+      "type": "musicdisc",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sapphire_recipe",
-      "path": "~/DinoJack25"
+      "registry_name": "nevergonnagiveyouup",
+      "path": "~/UnusualOtter"
     }
   ],
   "variable_elements": [],
@@ -100,16 +109,19 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "custom_rickroll",
+      "files": [
+        "vibe_song_1"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.random_mod.jurassic_park.desc": "Jurassic Park theme music.",
-      "block.random_mod.sapphire_ingot_ore": "SapphireIngot Ore",
-      "block.random_mod.sapphire_ingot_block": "Block of SapphireIngot",
-      "item.random_mod.jurassic_park": "Jurassic Park Theme Song",
-      "item.random_mod.sapphire": "Sapphire",
-      "item.random_mod.sapphire_ingot": "SapphireIngot",
+      "subtitles.custom_rickroll": "",
       "subtitles.custom_jurassicpark": "",
       "itemGroup.tabrandom_menu": "Random Stuff"
     }
@@ -118,15 +130,15 @@
     "name": "~",
     "children": [
       {
-        "name": "DinoJack25",
-        "children": []
-      },
-      {
         "name": "UnusualOtter",
         "children": []
       },
       {
         "name": "Shared",
+        "children": []
+      },
+      {
+        "name": "DinoJack25",
         "children": []
       }
     ]

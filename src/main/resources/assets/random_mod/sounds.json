@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "custom_rickroll": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "random_mod:vibe_song_1",
+        "stream": true
+      }
+    ]
   }
 }

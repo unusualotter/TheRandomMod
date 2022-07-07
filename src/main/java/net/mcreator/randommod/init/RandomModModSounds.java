@@ -20,6 +20,7 @@ public class RandomModModSounds {
 	static {
 		REGISTRY.put(new ResourceLocation("random_mod", "custom_jurassicpark"),
 				new SoundEvent(new ResourceLocation("random_mod", "custom_jurassicpark")));
+		REGISTRY.put(new ResourceLocation("random_mod", "custom_rickroll"), new SoundEvent(new ResourceLocation("random_mod", "custom_rickroll")));
 	}
 
 	@SubscribeEvent
