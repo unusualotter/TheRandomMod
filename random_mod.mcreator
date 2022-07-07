@@ -1,13 +1,38 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RandomMenu",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_menu",
+      "path": "~/Shared"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabrandom_menu": "Random Stuff"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "DinoJack25",
+        "children": []
+      },
+      {
+        "name": "UnusualOtter",
+        "children": []
+      },
+      {
+        "name": "Shared",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "random_mod",

@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Random Stuff",
+    "icon": {
+      "value": "Items.AMETHYST_SHARD"
+    },
+    "showSearch": true
+  }
+}
