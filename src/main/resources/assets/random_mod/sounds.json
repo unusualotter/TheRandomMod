@@ -1,0 +1,11 @@
+{
+  "custom_jurassicpark": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "random_mod:jurassic-park-theme-song",
+        "stream": true
+      }
+    ]
+  }
+}

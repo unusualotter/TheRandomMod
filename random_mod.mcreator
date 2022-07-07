@@ -8,12 +8,109 @@
       "locked_code": false,
       "registry_name": "random_menu",
       "path": "~/Shared"
+    },
+    {
+      "name": "JurassicPark",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jurassic_park",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngotOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot_ore",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngotBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot_block",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngotOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot_ore_block_recipe",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngotBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot_block_ore_recipe",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireIngotOreSmelting",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot_ore_smelting",
+      "path": "~/DinoJack25"
+    },
+    {
+      "name": "SapphireRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_recipe",
+      "path": "~/DinoJack25"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "custom_jurassicpark",
+      "files": [
+        "jurassic-park-theme-song"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "item.random_mod.jurassic_park.desc": "Jurassic Park theme music.",
+      "block.random_mod.sapphire_ingot_ore": "SapphireIngot Ore",
+      "block.random_mod.sapphire_ingot_block": "Block of SapphireIngot",
+      "item.random_mod.jurassic_park": "Jurassic Park Theme Song",
+      "item.random_mod.sapphire": "Sapphire",
+      "item.random_mod.sapphire_ingot": "SapphireIngot",
+      "subtitles.custom_jurassicpark": "",
       "itemGroup.tabrandom_menu": "Random Stuff"
     }
   },

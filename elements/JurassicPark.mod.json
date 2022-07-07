@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "jurassicparkthememusicdisctexture",
+    "name": "Jurassic Park Theme Song",
+    "description": "Jurassic Park theme music.",
+    "creativeTab": {
+      "value": "CUSTOM:RandomMenu"
+    },
+    "music": {
+      "value": "CUSTOM:custom_jurassicpark"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
