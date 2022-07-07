@@ -8,13 +8,34 @@
       "locked_code": false,
       "registry_name": "random_menu",
       "path": "~/Shared"
+    },
+    {
+      "name": "Nevergonnagiveyouup",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nevergonnagiveyouup",
+      "path": "~/UnusualOtter"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "custom_rickroll",
+      "files": [
+        "vibe_song_1"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "itemGroup.tabrandom_menu": "Random Stuff"
+      "subtitles.custom_rickroll": "",
+      "item.random_mod.nevergonnagiveyouup.desc": "Creeper, aww man",
+      "itemGroup.tabrandom_menu": "Random Stuff",
+      "item.random_mod.nevergonnagiveyouup": "Creeper, Aww man"
     }
   },
   "foldersRoot": {

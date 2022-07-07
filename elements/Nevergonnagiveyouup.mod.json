@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "rickdisk",
+    "name": "Creeper, Aww man",
+    "description": "Creeper, aww man",
+    "creativeTab": {
+      "value": "CUSTOM:RandomMenu"
+    },
+    "music": {
+      "value": "CUSTOM:custom_rickroll"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}
