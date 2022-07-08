@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_mod:blocks/morbin_block",
+    "up": "random_mod:blocks/morbin_block",
+    "north": "random_mod:blocks/morbin_block",
+    "east": "random_mod:blocks/morbin_block",
+    "south": "random_mod:blocks/morbin_block",
+    "west": "random_mod:blocks/morbin_block",
+    "particle": "random_mod:blocks/morbin_block"
+  }
+}

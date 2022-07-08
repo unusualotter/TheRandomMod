@@ -28,8 +28,10 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.randommod.init.RandomModModTabs;
 import net.mcreator.randommod.init.RandomModModItems;
+import net.mcreator.randommod.init.RandomModModFluids;
 import net.mcreator.randommod.init.RandomModModFeatures;
 import net.mcreator.randommod.init.RandomModModBlocks;
+import net.mcreator.randommod.init.RandomModModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,6 +53,9 @@ public class RandomModMod {
 		RandomModModItems.REGISTRY.register(bus);
 
 		RandomModModFeatures.REGISTRY.register(bus);
+		RandomModModFluids.REGISTRY.register(bus);
+
+		RandomModModBiomes.REGISTRY.register(bus);
 
 	}
 

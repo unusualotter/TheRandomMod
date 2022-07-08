@@ -98,6 +98,48 @@
       "locked_code": false,
       "registry_name": "nevergonnagiveyouup",
       "path": "~/UnusualOtter"
+    },
+    {
+      "name": "MorbinBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morbin_block",
+      "path": "~/UnusualOtter"
+    },
+    {
+      "name": "MorbinWater",
+      "type": "fluid",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morbin_water",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/UnusualOtter"
+    },
+    {
+      "name": "Morbiome",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morbiome",
+      "path": "~/UnusualOtter"
+    },
+    {
+      "name": "MorbinTime",
+      "type": "dimension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morbin_time",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/UnusualOtter"
     }
   ],
   "variable_elements": [],
@@ -121,17 +163,23 @@
   ],
   "language_map": {
     "en_us": {
-      "subtitles.custom_rickroll": "",
       "block.random_mod.sapphire_ingot_ore": "SapphireIngot Ore",
       "item.random_mod.jurassic_park.desc": "Jurassic Park theme music.",
-      "block.random_mod.sapphire_ingot_block": "Block of SapphireIngot",
+      "biome.random_mod.morbiome": "Morbiome",
       "item.random_mod.jurassic_park": "Jurassic Park Theme Song",
       "item.random_mod.sapphire": "Sapphire",
-      "item.random_mod.nevergonnagiveyouup.desc": "Creeper, aww man",
+      "fluid.random_mod.morbin_water": "Morbin Water",
       "item.random_mod.sapphire_ingot": "SapphireIngot",
+      "block.random_mod.morbin_block": "Morbin Block",
       "subtitles.custom_jurassicpark": "",
+      "item.random_mod.nevergonnagiveyouup": "Creeper, Aww man",
+      "item.random_mod.morbin_water_bucket": "Morbin Water Bucket",
+      "subtitles.custom_rickroll": "",
+      "block.random_mod.sapphire_ingot_block": "Block of SapphireIngot",
+      "item.random_mod.nevergonnagiveyouup.desc": "Creeper, aww man",
       "itemGroup.tabrandom_menu": "Random Stuff",
-      "item.random_mod.nevergonnagiveyouup": "Creeper, Aww man"
+      "item.random_mod.morbin_time": "Morbin Time Portal Igniter",
+      "block.random_mod.morbin_water": "Morbin Water"
     }
   },
   "foldersRoot": {
