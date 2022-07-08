@@ -128,6 +128,50 @@
       "locked_code": false,
       "registry_name": "morbiome",
       "path": "~/UnusualOtter"
+    },
+    {
+      "name": "MorbPotionProcedure",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morb_potion_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/UnusualOtter"
+    },
+    {
+      "name": "Morb",
+      "type": "potioneffect",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morb",
+      "path": "~/UnusualOtter"
+    },
+    {
+      "name": "MorbiusPotion",
+      "type": "potion",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morbius_potion",
+      "path": "~/UnusualOtter"
+    },
+    {
+      "name": "MorbInABottle",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morb_in_a_bottle",
+      "path": "~/UnusualOtter"
     }
   ],
   "variable_elements": [],
@@ -155,18 +199,24 @@
       "block.random_mod.sapphire_ingot_ore": "SapphireIngot Ore",
       "biome.random_mod.morbiome": "Morbiome",
       "item.random_mod.jurassic_park": "Jurassic Park Theme Song",
+      "effect.random_mod.morb": "Morbin",
       "item.random_mod.sapphire": "Sapphire",
       "fluid.random_mod.morbin_water": "Morbin Water",
+      "item.minecraft.potion.effect.morbius_potion": "Potion of Morbius",
       "item.random_mod.sapphire_ingot": "SapphireIngot",
       "block.random_mod.morbin_block": "Morbin Block",
       "subtitles.custom_jurassicpark": "",
       "item.random_mod.nevergonnagiveyouup": "Creeper, Aww man",
       "item.random_mod.morbin_water_bucket": "Morbin Water Bucket",
       "subtitles.custom_rickroll": "",
+      "item.random_mod.morb_in_a_bottle": "Morb In A Bottle",
       "block.random_mod.sapphire_ingot_block": "Block of SapphireIngot",
+      "item.minecraft.splash_potion.effect.morbius_potion": "Splash Potion of Morbius",
       "item.random_mod.nevergonnagiveyouup.desc": "Creeper, aww man",
+      "item.minecraft.tipped_arrow.effect.morbius_potion": "Arrow of Morbius",
       "itemGroup.tabrandom_menu": "Random Stuff",
-      "block.random_mod.morbin_water": "Morbin Water"
+      "block.random_mod.morbin_water": "Morbin Water",
+      "item.minecraft.lingering_potion.effect.morbius_potion": "Lingering Potion of Morbius"
     }
   },
   "foldersRoot": {

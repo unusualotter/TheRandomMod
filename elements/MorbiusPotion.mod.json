@@ -1,0 +1,66 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Morbius",
+    "splashName": "Splash Potion of Morbius",
+    "lingeringName": "Lingering Potion of Morbius",
+    "arrowName": "Arrow of Morbius",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "CUSTOM:Morb"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "JUMP_BOOST"
+        },
+        "duration": 3600,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 3600,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "GLOWING"
+        },
+        "duration": 3600,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "CONDUIT_POWER"
+        },
+        "duration": 3600,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

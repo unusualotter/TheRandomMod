@@ -27,6 +27,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.randommod.init.RandomModModTabs;
+import net.mcreator.randommod.init.RandomModModPotions;
+import net.mcreator.randommod.init.RandomModModMobEffects;
 import net.mcreator.randommod.init.RandomModModItems;
 import net.mcreator.randommod.init.RandomModModFluids;
 import net.mcreator.randommod.init.RandomModModFeatures;
@@ -55,6 +57,8 @@ public class RandomModMod {
 		RandomModModFeatures.REGISTRY.register(bus);
 		RandomModModFluids.REGISTRY.register(bus);
 
+		RandomModModMobEffects.REGISTRY.register(bus);
+		RandomModModPotions.REGISTRY.register(bus);
 		RandomModModBiomes.REGISTRY.register(bus);
 
 	}

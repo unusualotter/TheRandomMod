@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Morbin",
+    "icon": "morbin_block.png",
+    "color": {
+      "value": -16754589,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "MorbPotionProcedure"
+    }
+  }
+}
