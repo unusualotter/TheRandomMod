@@ -17,7 +17,6 @@ import net.mcreator.randommod.item.SapphireItem;
 import net.mcreator.randommod.item.SapphireIngotItem;
 import net.mcreator.randommod.item.NevergonnagiveyouupItem;
 import net.mcreator.randommod.item.MorbinWaterItem;
-import net.mcreator.randommod.item.MorbinTimeItem;
 import net.mcreator.randommod.item.JurassicParkItem;
 import net.mcreator.randommod.RandomModMod;
 
@@ -31,7 +30,6 @@ public class RandomModModItems {
 	public static final RegistryObject<Item> SAPPHIRE_INGOT_BLOCK = block(RandomModModBlocks.SAPPHIRE_INGOT_BLOCK, RandomModModTabs.TAB_RANDOM_MENU);
 	public static final RegistryObject<Item> MORBIN_BLOCK = block(RandomModModBlocks.MORBIN_BLOCK, RandomModModTabs.TAB_RANDOM_MENU);
 	public static final RegistryObject<Item> MORBIN_WATER_BUCKET = REGISTRY.register("morbin_water_bucket", () -> new MorbinWaterItem());
-	public static final RegistryObject<Item> MORBIN_TIME = REGISTRY.register("morbin_time", () -> new MorbinTimeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,6 +1,6 @@
 {
-  "block.random_mod.sapphire_ingot_ore": "SapphireIngot Ore",
   "item.random_mod.jurassic_park.desc": "Jurassic Park theme music.",
+  "block.random_mod.sapphire_ingot_ore": "SapphireIngot Ore",
   "biome.random_mod.morbiome": "Morbiome",
   "item.random_mod.jurassic_park": "Jurassic Park Theme Song",
   "item.random_mod.sapphire": "Sapphire",
@@ -14,6 +14,5 @@
   "block.random_mod.sapphire_ingot_block": "Block of SapphireIngot",
   "item.random_mod.nevergonnagiveyouup.desc": "Creeper, aww man",
   "itemGroup.tabrandom_menu": "Random Stuff",
-  "item.random_mod.morbin_time": "Morbin Time Portal Igniter",
   "block.random_mod.morbin_water": "Morbin Water"
 }
